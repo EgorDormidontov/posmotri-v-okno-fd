@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 h1,
@@ -50,12 +53,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-.page {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-
 .content {
   display: flex;
   flex-direction: row;
@@ -67,9 +64,9 @@ ol {
 
 .search-form {
   display: flex;
-  flex-direction: row;     
-  justify-content: space-between; 
-  align-items: flex-start;  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .content__list-container {
@@ -88,6 +85,13 @@ ol {
 
 .title {
   margin-bottom: 26px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 94%;
+  letter-spacing: 0%;
+  height: 210px;
+  text-transform: uppercase;
 }
 
 .result__video-container {
@@ -132,16 +136,6 @@ ol {
   font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
-}
-
-.title {
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  font-size: 75px;
-  line-height: 94%;
-  letter-spacing: 0%;
-  height: 210px;
-  text-transform: uppercase;
 }
 
 .content__accent {
