@@ -192,6 +192,7 @@ ol {
   width: fit-content;
   gap: 5px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .search-form__textfield {
@@ -201,7 +202,6 @@ ol {
   color: #fff;
   background-color: transparent;
   appearance: none;
-  word-spacing: 10px;
 }
 
 .search-form__textfield::placeholder {
