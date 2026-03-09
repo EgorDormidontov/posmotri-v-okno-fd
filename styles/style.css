@@ -135,6 +135,7 @@ ol {
   font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
+  margin-bottom: 10px;
 }
 
 .content__accent {
@@ -191,7 +192,6 @@ ol {
   align-items: center;
   width: fit-content;
   gap: 5px;
-  margin-bottom: 10px;
   font-weight: 400;
 }
 
@@ -202,6 +202,7 @@ ol {
   color: #fff;
   background-color: transparent;
   appearance: none;
+  width: 211px;
 }
 
 .search-form__textfield::placeholder {
