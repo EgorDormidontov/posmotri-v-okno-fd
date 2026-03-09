@@ -125,7 +125,11 @@ ol {
   font-size: 18px;
   line-height: 16.2px;
   letter-spacing: 0;
-  line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
   margin-top: 5px;
 }
 
